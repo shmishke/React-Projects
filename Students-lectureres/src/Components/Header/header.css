@@ -1,0 +1,9 @@
+.hdr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: darkolivegreen;
+}
+.logo {
+  margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+.lecturers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.students-card {
+  padding-bottom: 10px;
+}
+.lecturers-card {
+  padding-right: 19px;
+}
+.modal-lecturor,
+.modal-students,
+.modal-add {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
